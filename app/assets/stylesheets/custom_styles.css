@@ -1,9 +1,6 @@
 body {
     color: white;
-    width: 500px;
-    margin: auto;
     padding: 50px;
-    border-radius: 3px;
     margin-top: 10px;
     font-family: sans-serif, Arial, Helvetica;
     background-image: url('nature1.jpg');
@@ -12,4 +9,8 @@ body {
     background-repeat: no-repeat;
     height: 100vh;
     overflow: hidden;
+ }
+ body a {
+    color: darkcyan;
+
  }
