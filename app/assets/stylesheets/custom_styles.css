@@ -1,7 +1,6 @@
 body {
     color: white;
     padding: 50px;
-    margin-top: 10px;
     font-family: sans-serif, Arial, Helvetica;
     background-image: url('nature1.jpg');
     background-size: cover; 
@@ -21,9 +20,12 @@ a:hover{
     border-radius: 3px;
     background-color: whitesmoke;
     border: none;
+    margin-bottom: 3px;
+    color: red;
  }
- .button_to {
-   color: darkcyan;
+ button:hover {
+   background-color: rgba(250, 235, 215, 0.423);
+   cursor: pointer;
  }
  /* width */
 ::-webkit-scrollbar {
@@ -45,4 +47,7 @@ a:hover{
  /* Handle on hover */
  ::-webkit-scrollbar-thumb:hover {
    background: #4a4a4a79; 
+ }
+ input[type="submit"] {
+   color: darkcyan;
  }
