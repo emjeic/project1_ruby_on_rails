@@ -50,4 +50,14 @@ a:hover{
  }
  input[type="submit"] {
    color: darkcyan;
+   border: none;
+   border-radius: 3px;
+ }
+ input[type="submit"]:hover {
+  background-color: rgba(245, 245, 245, 0.441);
+  cursor: pointer;
+}
+ .task-message {
+  text-align: center;
+  color: cyan;
  }
